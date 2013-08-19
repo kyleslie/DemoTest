@@ -1,5 +1,5 @@
 # One Month Rails
 
-This is a sexy beast that will make me a sick programming cunt.
+49.99 for this. Better be worth it! x
 
-By [Kyle Leslie Sim] (http://kyleslie.com)
+by [Kyle Leslie Sim] (http://www.about.me/kyleslie)
