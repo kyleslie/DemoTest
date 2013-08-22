@@ -1,3 +1,7 @@
+<% if user_signed_in? %>
+	<h1>Welcome back!</h1>
+	<% else %>
+
 <div class="hero-unit">
 <h1>Welcome to my project</h1>
 <p>
@@ -6,7 +10,7 @@
 
 </p>
 <p>
-	<%= link_to "Click me!", "#", class: "btn btn-success btn-large" %>
+	<%= link_to "Click me!", new_user_registration_path, class: "btn btn-success btn-large" %>
 </p>
-
+ <% end %>
 </p>
