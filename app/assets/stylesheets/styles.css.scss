@@ -19,13 +19,12 @@ body {
 }*/
 
 .footer {
-
-	margin-top: 50px;
-	color: $grayLight;
-	a {
-		color: $gray;
-	}
-}
+  position: bottom;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
 
 /* Required for jQuery Masonry */
 
@@ -33,7 +32,7 @@ body {
 				margin: 5px;
 				padding: 5px;
 				font-size: 11px;
-				line-height: 1.4cm;
+				line-height: 1.4em;
 				float: left;
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px; 
